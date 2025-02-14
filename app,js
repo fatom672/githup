@@ -1,0 +1,40 @@
+const bank = { constructor(name,age,balance){
+    this.name=name,
+    this.age=age,
+    this.balance=balance,
+    this.address= {
+        city:'none',
+        street:'none',
+        buildingNum:0,
+        apartmentNum:0
+    },
+    this.accInfo= function(){
+    console.log(this.name);    
+    setTimeout(()=>
+        {console.log(this.balance);}
+,1000)}
+}};
+const myacc=("none",10,1000);
+ const amount =100
+ const bal_com=100
+ 
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
